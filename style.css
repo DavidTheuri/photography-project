@@ -1,0 +1,159 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+  border: 35px solid #c2cfd8;
+  padding : 10px;
+  outline : 3px solid black;
+  box-shadow:inset 0 0 0 2px black;
+}
+
+h1 {
+  font-weight:400;
+  font-size: 60px;
+  font-family: "Moo Lah Lah", sans-serif;
+  letter-spacing: 25px;
+  text-align:left;
+  color: black;
+  font: bodoni ornaments;
+  text-decoration: underline;
+  padding: 10px;
+  text-underline-offset: 18px;
+  padding-bottom: 100px;
+}
+
+/* Gallery layout */
+.gallery {
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 30px; */
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  object-fit: cover;
+  
+}
+
+/* Tile */
+.tile
+ {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  justify-self: center;
+  
+}
+
+ .tile1{
+    width: 80%;
+    height:90%;
+    margin-left: 70px;
+    background-color: #aed09e;
+    position : relative;
+    top: 50px;
+    right: 30px;
+ }
+ .tile2{
+    background-color:#d5eeff;
+    
+ }
+ .tile3{
+    background-color:#2e79ba;
+    
+ }
+  
+ .tile4{
+   background-color:#eb2632;
+   margin-left: 70px;
+   position: relative;
+   right: 50px;
+ }
+ .tile5{
+   background-color:#9fa180;
+   position: relative;
+   top : 70px;
+   left : 10px;
+
+ }
+.tile5 .photo {
+    position: relative;
+    left: 10px;
+   
+    }
+ .tile6{
+   background-color:#ffdc76;
+   width: 250px;
+   height: 400px;
+ }
+ .tile7{
+   background-color:#b0dedb;
+   position: relative;
+   
+ }
+ .tile8{
+   background-color:#ff6d24;
+   position: relative;
+   right: 30px;
+ }
+ .tile8 .photo{
+    position : relative;
+    left: 20px;
+ }
+ .tile9{
+   background-color:#fbe0d8;
+   position: relative;
+   left: 30px;
+ }
+ .tile10{
+    background-color: #aed09e;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 60px;
+
+ }
+ .tile11{
+    background-color:#d5eeff;
+
+ }
+ .tile12{
+    background-color:#2e79ba;
+
+ }
+.tile img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  position:relative;
+  bottom : 30px;
+  right: 30px;
+  outline: 2px solid black;
+}
+.site-footer {
+  margin-top: 4rem;
+  padding: 2.5rem 1.5rem;
+  background-color: rgb(5, 5, 121); 
+  color: #3a3a3a;
+  font-family: "Georgia", "Times New Roman", serif;
+  text-align: center;
+}
+
+.site-footer p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+  line-height: 1.7;
+  font-size: 2rem;
+  font-family: "Rubik Puddles" , system-ui;
+  font-weight : 1000;
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+/* #all {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(5, 1fr);
+        object-fit: cover;
+} */
